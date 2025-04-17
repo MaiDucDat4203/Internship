@@ -14,20 +14,20 @@ const Contacts = () => {
     { field: "registrarId", headerName: "Registrar ID" },
     {
       field: "name",
-      headerName: "Name",
+      headerName: "Họ và tên",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
       field: "age",
-      headerName: "Age",
+      headerName: "Tuổi",
       type: "number",
       headerAlign: "left",
       align: "left",
     },
     {
       field: "phone",
-      headerName: "Phone Number",
+      headerName: "Số điện thoại",
       flex: 1,
     },
     {
@@ -37,12 +37,12 @@ const Contacts = () => {
     },
     {
       field: "address",
-      headerName: "Address",
+      headerName: "Địa chỉ",
       flex: 1,
     },
     {
       field: "city",
-      headerName: "City",
+      headerName: "Thành phố",
       flex: 1,
     },
     {
@@ -55,8 +55,8 @@ const Contacts = () => {
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
-        subtitle="List of Contacts for Future Reference"
+        title="Phòng ban"
+        subtitle="Quản lý phòng ban"
       />
       <Box
         m="40px 0 0 0"

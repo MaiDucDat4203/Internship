@@ -178,7 +178,7 @@ const Sidebar = () => {
             />
             <Item
               title="Tin nhắn"
-              to="/calendar"
+              to="/faq"
               icon={<AttachEmailIcon />}
               selected={selected}
               setSelected={setSelected}
