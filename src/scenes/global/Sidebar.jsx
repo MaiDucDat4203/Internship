@@ -147,7 +147,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Lương thưởng"
+              title="Chấm công"
               to="/payroll"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
