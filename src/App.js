@@ -3,11 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
-import Team from "./scenes/team";
-import Invoices from "./scenes/invoices";
-import Contacts from "./scenes/contacts";
+import Payroll from "./scenes/payroll";
+import Department from "./scenes/department";
 import Bar from "./scenes/bar";
-import Form from "./scenes/form";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
@@ -16,6 +14,9 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
 import Login from "./scenes/login";
+import Employees from "./scenes/employees";
+import InfoAcc from "./scenes/info";
+import EditInfo from "./scenes/info/edit";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -34,10 +35,11 @@ function App() {
                 <Topbar setIsSidebar={setIsSidebar} />
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
-                  <Route path="/team" element={<Team />} />
-                  <Route path="/contacts" element={<Contacts />} />
-                  <Route path="/invoices" element={<Invoices />} />
-                  <Route path="/form" element={<Form />} />
+                  <Route path="/employees" element={<Employees />} />
+                  <Route path="/department" element={<Department />} />
+                  <Route path="/payroll" element={<Payroll />} />
+                  <Route path="/info" element={<InfoAcc />} />
+                  <Route path="/info/editinfo" element={<EditInfo />} />
                   <Route path="/bar" element={<Bar />} />
                   <Route path="/pie" element={<Pie />} />
                   <Route path="/line" element={<Line />} />

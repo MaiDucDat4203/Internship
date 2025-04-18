@@ -13,7 +13,6 @@ import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
-import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
@@ -135,21 +134,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Quản lý nhân viên"
-              to="/team"
+              to="/employees"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Phòng ban"
-              to="/contacts"
+              to="/department"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Lương thưởng"
-              to="/invoices"
+              to="/payroll"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -164,13 +163,13 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Thông tin tài khoản"
-              to="/form"
+              to="/info"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Lịch"
+              title="Kế hoạch"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
