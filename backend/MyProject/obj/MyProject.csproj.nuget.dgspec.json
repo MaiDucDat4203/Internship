@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\INTERN\\Projects\\Internship\\backend\\MyProject\\MyProject.csproj": {}
+    "D:\\INTERN\\Projects\\THUC_TAP\\backend\\MyProject\\MyProject.csproj": {}
   },
   "projects": {
-    "D:\\INTERN\\Projects\\Internship\\backend\\MyProject\\MyProject.csproj": {
+    "D:\\INTERN\\Projects\\THUC_TAP\\backend\\MyProject\\MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\INTERN\\Projects\\Internship\\backend\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "D:\\INTERN\\Projects\\THUC_TAP\\backend\\MyProject\\MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "D:\\INTERN\\Projects\\Internship\\backend\\MyProject\\MyProject.csproj",
+        "projectPath": "D:\\INTERN\\Projects\\THUC_TAP\\backend\\MyProject\\MyProject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\INTERN\\Projects\\Internship\\backend\\MyProject\\obj\\",
+        "outputPath": "D:\\INTERN\\Projects\\THUC_TAP\\backend\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
